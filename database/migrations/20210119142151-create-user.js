@@ -21,7 +21,7 @@ module.exports = {
       },
       image: {
         allowNull: true,
-        defaultValue : 'avatar-1.jpg',
+        defaultValue : 'default.jpg',
         type: Sequelize.STRING
       },
       phone: {
