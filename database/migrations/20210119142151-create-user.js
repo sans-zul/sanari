@@ -7,18 +7,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      status: {
-        allowNull: true,
-        type: Sequelize.INTEGER
-      },
-      verified: {
-        allowNull: false,
-        type: Sequelize.INTEGER
-      },
-      otp: {
-        allowNull: true,
-        type: Sequelize.STRING
-      },
       name: {
         allowNull: false,
         type: Sequelize.STRING
@@ -36,61 +24,9 @@ module.exports = {
         defaultValue : 'avatar-1.jpg',
         type: Sequelize.STRING
       },
-      foto_ktp: {
-        allowNull: true,
-        type: Sequelize.STRING
-      },
-      foto_ktp_wajah: {
-        allowNull: true,
-        type: Sequelize.STRING
-      },
       phone: {
         allowNull: true,
         type: Sequelize.STRING
-      },
-      alamat: {
-        allowNull: true,
-        type: Sequelize.TEXT
-      },
-      desa: {
-        allowNull: true,
-        type: Sequelize.STRING
-      },
-      kecamatan: {
-        allowNull: true,
-        type: Sequelize.STRING
-      },
-      kota: {
-        allowNull: true,
-        type: Sequelize.STRING
-      },
-      provinsi: {
-        allowNull: true,
-        type: Sequelize.STRING
-      },
-      kode_pos: {
-        allowNull: true,
-        type: Sequelize.STRING
-      },
-      cv: {
-        allowNull: true,
-        type: Sequelize.TEXT
-      },
-      about_me: {
-        allowNull: true,
-        type: Sequelize.TEXT
-      },
-      skill: {
-        allowNull: true,
-        type: Sequelize.TEXT
-      },
-      experience: {
-        allowNull: true,
-        type: Sequelize.TEXT
-      },
-      sosial_media: {
-        allowNull: true,
-        type: Sequelize.TEXT
       },
       createdAt: {
         allowNull: false,
